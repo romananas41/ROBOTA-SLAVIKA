@@ -1,0 +1,107 @@
+        body{
+            background-color: rgb(193, 218, 239);
+        }
+        h1{
+           font-weight: normal;
+           text-align: center;
+           letter-spacing: 5px;
+           text-transform: uppercase;
+        } 
+        h2 {
+            font-weight: normal;
+            text-indent: 20px;
+        } 
+        h3{
+            font-family: sans-serif;
+            text-indent: 20px;
+        } 
+        h4{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-indent: 20px;
+        } 
+        p{
+            text-align: justify;
+            text-indent: 20px;
+            line-height: 32px;
+            word-spacing: 2px;
+        } 
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem;
+        } 
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        } 
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        } 
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        } 
+        nav ul li a:hover {
+            background-color: #005bb5;
+            transform: scale(1.1);
+            border-radius: 5px;
+            text-decoration: none;
+        } 
+        section {
+            flex: 1;
+            padding: 1rem;
+        } 
+        footer {
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem;
+        }
+        footer p {
+            text-align: center;
+        }
+        .t{
+           text-align: justify;
+           line-height: 32px;
+        } 
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        } 
+        .fl{
+            float: right;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .fl1{
+            float: left;
+            border: 1px solid black;
+            padding: 5px;
+        } 
+        table {
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 20px 0;
+            font-size: 16px; 
+            text-align: left; 
+        }
+        th, td {
+            padding: 12px 15px; 
+            border: 1px solid #ddd; 
+        }
+        th {
+            background-color: #0073e6; 
+            color: white; 
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; 
+        }
+        tr:hover {
+            background-color: #f5f5f5; 
+            cursor: pointer; 
+        }
